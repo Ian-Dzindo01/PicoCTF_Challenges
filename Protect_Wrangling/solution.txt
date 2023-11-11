@@ -1,0 +1,1 @@
+Simple, just run the program with the flag as input and it will ask for the password.
