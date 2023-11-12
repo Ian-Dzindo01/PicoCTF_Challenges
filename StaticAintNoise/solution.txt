@@ -1,0 +1,1 @@
+Change permission on the file. Run it with static file as input. Outputs a string file, grep the flag from that file.

@@ -1,0 +1,6 @@
+Opening the HTML of the page we see there are GET and POST requests defined.
+Maybe we can try another request to see what happens.
+
+curl -I HEAD -i http://mercury.picoctf.net:15931/
+
+Command above returns the flag.
