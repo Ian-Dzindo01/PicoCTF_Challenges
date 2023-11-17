@@ -1,0 +1,1 @@
+Just keep going with binwalk -e and entering base_images folder and you will find the flag eventually.
