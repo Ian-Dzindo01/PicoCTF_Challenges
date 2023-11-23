@@ -1,0 +1,1 @@
+Enter negative values to obtain enough coins to buy the flag, which is given as a list of ascii values. Convert it back to string and get the flag.
