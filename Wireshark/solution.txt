@@ -1,0 +1,1 @@
+wireshark to open pcapng file. After that follow the TCP stream and the flag should be on the 5th page or so.
