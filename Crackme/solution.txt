@@ -1,0 +1,1 @@
+Open the code, find the text and decode ROT47 to get flag.
