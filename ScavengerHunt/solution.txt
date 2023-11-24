@@ -1,0 +1,3 @@
+Open up site. Look at HTML to get first part of flag. Open CSS to get the second.
+Javascript file tells us there is a robots.txt file, which provides the 3 part of flag.
+Apache server so need to get .htaccess file. Once there Store is highlighted and Mac, so probably need to get the DS_Store file, which gets the final piece of the flag.
