@@ -6,7 +6,7 @@
 #define FLAG_BUFFER 128
 #define MAX_SYM_LEN 4
 
-typedef struct Stonks {
+typedef struct Stonks {				/* new struct type Stonks*/
 	int shares;
 	char symbol[MAX_SYM_LEN + 1];
 	struct Stonks *next;
@@ -14,15 +14,16 @@ typedef struct Stonks {
 
 typedef struct Portfolios {
 	int money;
-	Stonk *head;
+	Stonk *head;					/* pointer to a stonk object*/
 } Portfolio;
 
 int view_portfolio(Portfolio *p) {
 	if (!p) {
 		return 1;
 	}
+
 	printf("\nPortfolio as of ");
-	fflush(stdout);
+	fflush(stdout);                   /*empty the buffer for output stream*/
 	system("date"); // TODO: implement this in C
 	fflush(stdout);
 
@@ -42,7 +43,7 @@ Stonk *pick_symbol_with_AI(int shares) {
 	if (shares < 1) {
 		return NULL;
 	}
-	Stonk *stonk = malloc(sizeof(Stonk));
+	Stonk *stonk = malloc(sizeof(Stonk));					/* allocates memory and returns pointer*/
 	stonk->shares = shares;
 
 	int AI_symbol_len = (rand() % MAX_SYM_LEN) + 1;
