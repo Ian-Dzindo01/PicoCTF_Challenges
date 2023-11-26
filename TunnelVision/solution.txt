@@ -1,0 +1,4 @@
+Unknown data type. Upon catting the head of the file we see the first letters are BM which indicates it is a bitmap file.
+We use ImageMagick to open the file and see half and image and a false flag.
+Size of the file is 2 Mb and image dimension is 1134x306. There is something more hidden in this file, need to find a way to bring it out.
+Trying to manipulate hex to see if there is something to be brought out.
