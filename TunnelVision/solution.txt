@@ -2,3 +2,6 @@ Unknown data type. Upon catting the head of the file we see the first letters ar
 We use ImageMagick to open the file and see half and image and a false flag.
 Size of the file is 2 Mb and image dimension is 1134x306. There is something more hidden in this file, need to find a way to bring it out.
 Trying to manipulate hex to see if there is something to be brought out.
+We use HexEdit to manipulate the hex and change the image height.
+ImageMagick cannot open the file, hence we try another editor. Photopea seems to work good and opens the image with the flag written onto it.
+More info about which hex values to manipualte can be found on the BMP Wikipedia page.
