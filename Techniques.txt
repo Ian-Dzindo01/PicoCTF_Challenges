@@ -1,0 +1,6 @@
+Hidden data in images:
+    File
+    Exiftool
+    Xxd
+    Strings
+    Binwalk
