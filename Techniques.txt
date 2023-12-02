@@ -4,4 +4,3 @@ Hidden data in images:
     Xxd
     Strings
     Binwalk
-    1

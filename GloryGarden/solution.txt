@@ -1,0 +1,1 @@
+Really simple. Just strings it and grep the pico flag.

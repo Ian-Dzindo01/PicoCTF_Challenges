@@ -1,0 +1,9 @@
+pcapng file. Opened it with wireshark. It is a TFTP connection. Extraced 3 bin files, 2 text files by setting filter on top to tftp.type.
+2 text files, rot13 encrypted. Decrypting them tells us there is some secret hidden flag in the bmp files.
+
+Going to use binwalk, exiftool, strings, file and xxd to see if there is any data to extract.
+
+Binwalk shows something interesting for the picture2.bmp file, but not much for the other 2.
+File command doesnt tell us much, nor does exiftool.
+Strings command shows a couple of entries for keyword flag when ran on the second picture.
+Xxd does not really seem to tell us much.
